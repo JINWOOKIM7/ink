@@ -5,18 +5,18 @@ url:                ""
 author:             "JINWOOKIM7"
 email:              "maskseven7@naver.com"
 gravatar_hash:      "203a05189c7b7c5158e53363c0582b87"
-twitter:            "jhondoe"
-email:              "jhondoe@abc.com"
-github:             "jhondoe"
-pinterest:          "jhondoe"
-linkedin:           "jhondoe"
-facebook:           "jhondoe"
+twitter:            "maskseven7"
+email:              "maskseven7@naver.com"
+github:             "JINWOOKIM7"
+pinterest:          "JINWOOKIM7"
+linkedin:           "JINWOOKIM7"
+facebook:           "JINWOOKIM7"
 
-disqus_shortname:   "thinker3197"
+disqus_shortname:   "JINWOOKIM7"
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
-paginate:           5
+paginate:           1
 paginate_path:      "/page:num/"
 
 baseurl:            ""
