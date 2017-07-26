@@ -1,6 +1,7 @@
-﻿---
+---
 layout: default 
 ---
+<meta charset="utf-8" />
 <header class="bloghead">
     <h1 class="bloghead-title">
     <a href="{{ site.url }}/">{{ site.name }}<span>&#39;s blog</span></a>
@@ -8,8 +9,52 @@ layout: default
   
 </header>
 <div class="content">
-	<h2>Profile</h1><hr>
-	<ul>test테스트</ul>
+	<h2>Profile</h2><hr>
+	<ul>
+		<li>이름 : 김진우(남,1991년생)</li>
+		<li>2010.03 ~ 2017.02 :: <a href="http://cs.hallym.ac.kr/user/indexMain.do?siteId=software">한림대학교 융합소프트웨어학과</a>학사</li>
+		<li>2011.09 ~ 2013.09 :: 사회복무요원</li>
+	</ul>
+	
+	<h2>Links</h2><hr>
+	<ul>
+		<li>Email : jinwookimm91@gmail.com</li>
+		<li>Github : <a href="https://github.com/JINWOOKIM7">https://github.com/JINWOOKIM7</a></li>
+	</ul>
+	
+	<h2>Interests</h2><hr>
+	<p>Web / Android / OpenGL / Unity3D / Java / C++</p>
+	
+	<h2>Awards</h2><hr>
+	<ul>
+		<li>2015.12 :: 한림대학교 융합소프트웨워 공모전 동상- KBL 농구 스탯 웹</li>
+		<li>2016.11 :: 한림대학교 융합소프트웨워 공모전 동상 - 한림대 시간표 생성기</li>
+		<li>2016.12 :: 한림대학교 전자정보공과대학 학술제 개인부분 최우수상 - 한림대 시간표 생성기</li>
+	</ul>
+	
+	<h2>Activities</h2><hr>
+	<ul>
+		<li>2015.06 ~ 07 :: 호주 Griffith University 단기연수 </li>
+		<li>2016.01 ~ 02 :: 한림대학교 JAVA 멘토링</li>
+		<li>2016.03 ~ 12 :: 한림대학교 캡스톤 디자인 - 한림대 시간표 생성기
+		<li>2016.12 ~ 2017.01 :: 일본 시온정보통신 인턴 - 웹개발
+	</ul>
+	
+	<h2>License</h2><hr>
+	<ul>
+		<li>2016.11 :: 정보처리기사 </li>
+		<li>2017.05 :: TOEIC 860</li>
+
+	</ul>
+	
+	
+	<h2>Project</h2><hr>
+	<ul>
+		<li>한림대학교 시간표 생성기<a href="https://github.com/JINWOOKIM7/HLSchedule"> - Code</a></li>
+		<li>미세먼지정어플 - 숨좀쉬자<a href="https://github.com/JINWOOKIM7/FindFineDust"> - Code</a></li>
+		<li>기억의미로 안드로이드 OpenGLES<a href="https://github.com/JINWOOKIM7/MazeOfMemory"> - Code</a></li>
+
+	</ul>
     {% if site.posts.size == 0 %}
     <h2>No post found</h2> {% else %} {% for post in paginator.posts %}
     <div class="post-list">

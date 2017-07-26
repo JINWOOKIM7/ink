@@ -1,4 +1,4 @@
-﻿---
+---
 ---
 
 $open-sans: 'Open Sans', sans-serif;
@@ -45,12 +45,12 @@ body {
 }
 
 a {
-    color: #515151;
+    color: #EC407A;
     text-decoration: none;
     transition: all 0.3s;
     &:hover,
     &:focus {
-        color: #EC407A;
+	color: #009CB2;
         text-decoration: dotted;
     }
 }
@@ -80,12 +80,14 @@ h6 {
 }
 
 p {
-    margin: 0 0 1rem;
+    margin-top: 1.25rem;
+    margin-left: .5rem;
+    margin-bottom: 3.0rem;
 }
 
 ul,
 ol,
-dl {
+dl {	
     margin-left: 1.5rem;
 }
 
@@ -98,14 +100,16 @@ dd {
 }
 
 ul {
+    margin-top : 0;
     display: inline;
-    list-style: inside circle;
-    padding-left: 0;
     li {
+	margin-top : 0;
+  	margin-left: 2.25rem;
         margin-bottom: .25rem;
     }
     ul,
     ol {
+	margin-left: .25rem;
         margin-top: .25rem;
         margin-bottom: .5rem;
     }
@@ -140,7 +144,8 @@ hr {
     border: 0;
     border-top: .5px solid #BDBDBD;
     border-bottom: .5px solid #BDBDBD;
-    margin: 1rem auto;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 strong {
