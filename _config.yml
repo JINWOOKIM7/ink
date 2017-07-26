@@ -1,5 +1,5 @@
 ﻿name:               "KimJinWoo"
-description:        "한림대학교 융합소프트웨어 김진우"
+description:        "꿈꾸는 개발자"
 
 url:                ""
 author:             "JINWOOKIM7"
@@ -49,3 +49,5 @@ defaults:
 
 gems:
   - jekyll-paginate
+
+encoding: "utf-8"
